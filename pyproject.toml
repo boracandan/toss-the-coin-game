@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tossthecoin"
+version = "0.1.0"
+description = "A basic terminal based game"
+authors = ["Bora Candan <1boracandan@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+opencv-python = ">=4.12.0.88,<5.0.0.0"
+
+[tool.poetry.group.windows.dependencies]
+windows-curses = "^2.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
