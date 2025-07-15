@@ -1,5 +1,5 @@
 from enum import StrEnum
-from os.path import dirname, abspath
+from os.path import dirname, abspath, join
 from random import randint
 import logging
 
@@ -69,7 +69,7 @@ class GameMode:
 NEGATIVE_PHRASES = ("exit", "no", "n", "q", "quit")
 POSITIVE_PHRASES = ("yes", "y")
 
-MAIN_DIR = dirname(abspath(__file__)) # Gets the main folder
+MAIN_DIR = dirname(dirname(abspath(__file__))) # Gets the main folder
 
 GAME_MODES = {
     "easy": GameMode("Easy", initialBalance=1000, debtThreshold=randint(-5000, -4000), goalMoneyAmount=4000),
