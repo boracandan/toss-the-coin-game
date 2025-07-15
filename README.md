@@ -58,18 +58,6 @@ To update dependencies:
 
 ---
 
-## Project Structure
-
-    toss-the-coin-game/
-    ├── pyproject.toml
-    ├── poetry.lock
-    ├── src/
-    │   └── main.py
-    ├── README.md
-    └── .gitignore
-
----
-
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
