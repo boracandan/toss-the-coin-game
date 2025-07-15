@@ -44,10 +44,6 @@ Run the game with Poetry:
 
     poetry run python src/main.py
 
-Or, if you have a script entry defined in `pyproject.toml`:
-
-    poetry run toss-the-coin
-
 ---
 
 ## Managing Dependencies
