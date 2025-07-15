@@ -1,5 +1,5 @@
 from src.settings import *
-from utils.utility import pos_int
+from src.utils.utility import pos_int
 from src.main import CoinTossGame
 
 from abc import ABC, abstractmethod
